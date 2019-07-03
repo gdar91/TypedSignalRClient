@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <NullableContextOptions>enable</NullableContextOptions>
+    <WarningsAsErrors>CS8600;CS8602;CS8603;CS8625;CS8618</WarningsAsErrors>
+    <Authors>Giorgi Darchiashvili</Authors>
+    <Company>MIA LEPL 112</Company>
+    <Description>Implement a hub client interface and use it as a strongly typed handler for a hub connection.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/gdar91/TypedSignalRClient</RepositoryUrl>
+    <Copyright>© 2019 Giorgi Darchiashvili</Copyright>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
